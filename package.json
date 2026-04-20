@@ -1,0 +1,149 @@
+{
+  "uuid": "e87251c7-68d1-4132-91ec-b2c8fddbe2a4",
+  "name": "多多自动",
+  "icon": null,
+  "version": "1",
+  "tags": "",
+  "software": null,
+  "software_title": null,
+  "package_version": 8,
+  "feature_list": [
+    2,
+    5,
+    7,
+    8
+  ],
+  "description": null,
+  "instruction": "",
+  "use_latest_pip": false,
+  "videoName": "",
+  "startup": "main",
+  "robot_type": "app",
+  "activity_code": null,
+  "flows": [
+    {
+      "name": "main",
+      "filename": "main",
+      "kind": "Visual",
+      "opened": false,
+      "groupName": null,
+      "enableCopilot": false
+    },
+    {
+      "name": "删图片",
+      "filename": "process2",
+      "kind": "Visual",
+      "opened": false,
+      "groupName": null,
+      "enableCopilot": false
+    },
+    {
+      "name": "上图片",
+      "filename": "process4",
+      "kind": "Visual",
+      "opened": false,
+      "groupName": null,
+      "enableCopilot": false
+    },
+    {
+      "name": "上文件",
+      "filename": "process5",
+      "kind": "Visual",
+      "opened": false,
+      "groupName": null,
+      "enableCopilot": false
+    },
+    {
+      "name": "检查文件夹",
+      "filename": "process6",
+      "kind": "Visual",
+      "opened": false,
+      "groupName": null,
+      "enableCopilot": false
+    },
+    {
+      "name": "删最后网页",
+      "filename": "process7",
+      "kind": "Visual",
+      "opened": false,
+      "groupName": null,
+      "enableCopilot": false
+    },
+    {
+      "name": "推广",
+      "filename": "process8",
+      "kind": "Visual",
+      "opened": false,
+      "groupName": null,
+      "enableCopilot": false
+    },
+    {
+      "name": "填写拼单价",
+      "filename": "process9",
+      "kind": "Visual",
+      "opened": false,
+      "groupName": null,
+      "enableCopilot": false
+    },
+    {
+      "name": "点回机会lb",
+      "filename": "process10",
+      "kind": "Visual",
+      "opened": false,
+      "groupName": null,
+      "enableCopilot": false
+    },
+    {
+      "name": "商品ID",
+      "filename": "process11",
+      "kind": "Visual",
+      "opened": false,
+      "groupName": null,
+      "enableCopilot": false
+    },
+    {
+      "name": "实验室",
+      "filename": "process12",
+      "kind": "Visual",
+      "opened": false,
+      "groupName": null,
+      "enableCopilot": false
+    },
+    {
+      "name": "子流程1",
+      "filename": "process13",
+      "kind": "Visual",
+      "opened": false,
+      "groupName": null,
+      "enableCopilot": false
+    }
+  ],
+  "flow_groups": [],
+  "variables": [],
+  "external_dependencies": [
+    "Pillow==7.2.0",
+    "PyAutoGUI==0.9.54",
+    "openpyxl==3.0.7",
+    "pandas==1.3.5",
+    "pywin32==225",
+    "pyperclip==1.11.0"
+  ],
+  "internaldependencies": [],
+  "selectordependencies": [],
+  "internalautodependencies": [],
+  "ipaasDependencies": [],
+  "databook_columns": [],
+  "authority": "use",
+  "internalautoupgrade": false,
+  "isbrief": false,
+  "uia_type": "PC",
+  "persist_databook": false,
+  "encrypt_bot": false,
+  "customItems": {
+    "gifUrl": null,
+    "videoUrl": "",
+    "imageUrl": "",
+    "imageName": ""
+  },
+  "terminalTags": null
+}
